@@ -1,8 +1,5 @@
 # Inherit some common carbon stuff.
-$(call inherit-product, vendor/carbon/config/common_full_phone.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 $(call inherit-product, device/samsung/lt02ltespr/full_lt02ltespr.mk)
 
