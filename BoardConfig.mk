@@ -34,4 +34,3 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno305
 # NFC
 BOARD_HAVE_NFC := true
 
-TARGET_BOARD_INFO_FILE ?= device/samsung/lt02ltespr/board-info.txt
